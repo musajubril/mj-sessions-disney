@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="../assets/img/Disney+_logo 1.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/output.css">
+    <link rel="stylesheet" href="../assets/css/boxicons.min.css">
+</head>
+<body class="bg-[#121212] text-white">
+    <main class="h-dvh w-dvw flex flex-col items-center justify-center">
+        <div class="flex flex-col max-w-md">
+            <img class="mb-10" src="../assets/img/Disney+_logo 1.svg" alt="Disney+ logo">
+            <h1 class="text-3xl text-center mb-5">Welcome to Disney+</h1>
+            <form class="flex flex-col gap-5">
+                <div class="flex flex-col">
+                    <label for="email" class="text-sm ">Email:</label>
+                    <input type="email" id="email" class="bg-[#121212] border-b outline-none text-sm">
+                </div>
+                <div class="flex flex-col">
+                    <label for="password" class="text-sm ">Password:</label>
+                    <input type="password" id="password" class="bg-[#121212] border-b outline-none text-sm">
+                </div>
+                <div class="flex justify-end">
+                    <button class="bg-white border-white rounded-lg py-3 px-6 text-[#121212] font-semibold text-sm" id="submit" type="button">
+                        Login
+                    </button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="../assets/js/login.js"></script>
+</body>
+</html>
